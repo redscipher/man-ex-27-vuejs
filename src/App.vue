@@ -46,7 +46,7 @@
     }
   }
 
-  const cadastraTarefa = (e: any) =>{
+  const cadastraTarefa = (e: any): void =>{
     e.preventDefault();
     const tarefaNova = {
       titulo: estado.tarefaTemp,

@@ -1,6 +1,8 @@
-import './assets/main.css'
+// == importacoes: vue
+import { createApp } from 'vue';
+import App from './App.vue';
+// bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+// cria instancia do app
+createApp(App).mount('#app');
